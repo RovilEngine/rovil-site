@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-home
+---
+
+<div class="wrapper home">
+  <div class="content">
+    <div class="illo-container">
+      <img src="https://cdn.glitch.me/37af356c-7b11-4ab8-a163-c27306ac9dc7%2FLogo_NO_OUTLINE.svg?v=1636831459221" class="illustration" style="align: right" alt="Logo">
+    </div>
+    {{ content | safe }}
+    <br />
+    <div class="btn-container">
+      <a class="btn">
+        <button inline value="/get-started" type="submit">
+          <i class="fas fa-play-circle"></i>&nbsp;Get Started
+        </button>
+      </a>
+      <div class="break"></div>
+      <a class="btn btn-dark">
+        <button value="https://github.com/RovilEngine" dark type="submit">
+          <i class="fab fa-github"></i>&nbsp;Github
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+
+

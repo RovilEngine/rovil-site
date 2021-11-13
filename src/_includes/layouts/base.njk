@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rovil Engine</title>
+    <link rel="icon" href="https://cdn.glitch.me/37af356c-7b11-4ab8-a163-c27306ac9dc7%2FLogo.ico?v=1636833156873" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A Roblox meta-engine focused on security." />
+    <link rel="stylesheet" type="text/css" href="/public/style.css" />
+    <script defer src="/public/client.js"></script>
+    <script src="https://kit.fontawesome.com/8204c052b4.js" crossorigin="anonymous"></script>
+    {% seo "" %}
+  </head>
+  <body>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer class="footer">
+      &copy;2021 Afo
+    </footer>
+    <script src="/public/after.js"></script>
+  </body>
+</html>

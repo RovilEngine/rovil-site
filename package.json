@@ -1,0 +1,27 @@
+{
+  "name": "rovil-site",
+  "version": "0.0.1",
+  "description": "Rovil introductory site.",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "NODE_ENV=production eleventy"
+  },
+  "dependencies": {
+    "eleventy-plugin-seo": "^0.5.1",
+    "luxon": "^1.26.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "repository": {
+    "url": "https://github.com/RovilEngine/rovil-site"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "eleventy"
+  ]
+}
